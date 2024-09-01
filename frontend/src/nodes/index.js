@@ -16,7 +16,7 @@ export default function Node({ data, id }) {
             </div>
           );
         }
-        if (element.type === "input") {
+        if (element.type === "inputText") {
           return (
             <Input key={index} val={element.value} label={element.label} />
           );

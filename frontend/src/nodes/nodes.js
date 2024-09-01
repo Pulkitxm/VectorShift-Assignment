@@ -7,7 +7,7 @@ const nodes = [
     type: "customInput",
     node: Node,
     elements: [
-      { type: "input", value: "Hello World!", label: "Name" },
+      { type: "inputText", value: "Hello World!", label: "Name" },
       {
         type: "select",
         label: "Type",
@@ -52,7 +52,7 @@ const nodes = [
     type: "customOutput",
     node: Node,
     elements: [
-      { type: "input", label: "Text" },
+      { type: "inputText", label: "Text" },
       {
         type: "select",
         label: "Type",
@@ -69,9 +69,9 @@ const nodes = [
   },
   {
     label: "Text",
-    type: "input",
+    type: "inputt",
     node: Node,
-    elements: [{ type: "input", label: "Text" }],
+    elements: [{ type: "inputText", label: "Text" }],
     handles: [
       {
         type: "source",

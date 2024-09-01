@@ -26,7 +26,6 @@ export default function Input({ val, label }) {
   useEffect(() => {
     setSetshowInput(value === "{{input}}");
   }, [value]);
-
   return (
     <>
       <label className="flex flex-nowrap items-center">
@@ -76,7 +75,7 @@ function InputBox({ label }) {
   return (
     <div
       draggable
-      className="bg-gray-400 absolute left-48 rounded-lg p-4 py-3 text-black"
+      className="bg-gray-400 absolute right-48 rounded-lg p-4 py-3 text-black"
     >
       <p>{label}</p>
       <div className="relative">
